@@ -6,6 +6,17 @@ body {
     background: #000;
 }
 
+body::-webkit-scrollbar{
+    width: 0.25rem;
+  }
+  body::-webkit-scrollbar-track{
+    background: rgba(0,0,0,0);
+  }
+  body::-webkit-scrollbar-thumb{
+    background: rgba(50,0,50,20%);
+    border-radius: 2rem;
+  }
+
 :root {
     --cubeColor0: linear-gradient(#191919, #0F0);
     --cubeColor1: linear-gradient(#191919, #F00);
